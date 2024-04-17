@@ -1,0 +1,31 @@
+body,
+html {
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;"
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.box {
+  background-color: #fcffff;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(31, 28, 28, 0.568);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(31, 28, 28, 0.568);
+  box-shadow: 10px 10px 5px 0px rgba(31, 28, 28, 0.568);
+}
+body {
+  background: rgb(84, 186, 230);
+  background: radial-gradient(
+    circle,
+    rgb(68, 158, 197) 0%,
+    rgba(48, 33, 255, 0.87) 100%
+  );
+}
